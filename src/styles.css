@@ -1,0 +1,11 @@
+ /*You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif!important;
+}
+
+.full-section {
+    box-sizing: border-box; 
+    min-height: calc(100vh - 182.4px);   
+}

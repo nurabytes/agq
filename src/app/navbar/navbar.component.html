@@ -1,0 +1,15 @@
+<nav class="uk-navbar-container uk-light" uk-navbar>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo <uk-responsive-height></uk-responsive-height>" href="#"><img [src]="logo"></a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li class="uk-visible@m" [routerLinkActive]="['uk-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['']">HOME</a></li>  
+            <li class="uk-visible@m" [routerLinkActive]="['uk-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/about']">ABOUT</a></li>  
+            <li class="uk-visible@m" [routerLinkActive]="['uk-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/fund']">FUND</a></li>
+            <li class="uk-visible@m" [routerLinkActive]="['uk-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/documents']">DOCUMENTS</a></li>
+            <li class="uk-visible@m" [routerLinkActive]="['uk-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/apply']">APPLY</a></li>                <li class="uk-visible@m" [routerLinkActive]="['uk-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/contact']">CONTACT</a></li>             
+            <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon></a>                         
+        </ul>        
+    </div>
+</nav>

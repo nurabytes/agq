@@ -1,0 +1,17 @@
+.uk-navbar-container {
+    color: white;
+    background: #000;
+}
+
+.uk-navbar-right .uk-active a {
+    color:#F27B21!important;
+}
+
+.uk-navbar-right a {
+  color: #fff;
+  letter-spacing: 0.15em;
+}
+
+.uk-logo {
+    width:6em;
+}

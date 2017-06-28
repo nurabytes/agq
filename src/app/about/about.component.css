@@ -1,0 +1,30 @@
+.full-section h2 {
+    font-size: 2em;
+}
+
+.stats .uk-card {
+    color: #fff;
+    background: #3b3be8;
+}
+
+.uk-card-title {
+    font-size: 2em;
+    color: #fff;
+}
+
+.uk-heading-divider {
+    border-bottom-color: #F27B21;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+    .full-section {
+        padding-top: 0;
+    }    
+    .full-section h2 {
+        font-size: 1em;
+    }
+    .stats {
+        padding-top: 0;
+    }
+}
