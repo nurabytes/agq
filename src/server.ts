@@ -7,13 +7,15 @@ import * as express from 'express';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-const port = process.env.PORT || 8080;
+// const port = process.env.PORT || 8080;
+
+const PORT = 4000;
 
 enableProdMode();
 
 const app = express();
 
-let template = readFileSync(join(__dirname, '..', 'dist', 'index.html')).toString();
+const template = readFileSync(join(__dirname, '..', 'dist', 'index.html')).toString();
 
 app.engine('html', (_, options, callback) => {
   const opts = { document: template, url: options.req.url };
